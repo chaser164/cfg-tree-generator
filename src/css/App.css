@@ -1,0 +1,39 @@
+#root {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cfg-tree-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+@media (max-width: 800px) {
+  .cfg-tree-container {
+    flex-direction: column; /* Change flex direction to column for phones */
+    align-items: center; /* Center items horizontally */
+  }
+}
+
+h4 {
+  font-style: italic;
+  text-align: left;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.github-link {
+  margin-top: 50px;
+}
+

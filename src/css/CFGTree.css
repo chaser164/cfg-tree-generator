@@ -1,0 +1,32 @@
+.tree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#treeWrapper {
+    background-color: white;
+    rotate: 0deg;
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid black;
+    display: 'flex';
+    justify-content: 'center';
+}
+
+.build-button {
+    margin: 20px;
+}
+
+.sentence-output {
+    width: 40vw;
+}
+
+@media (max-width: 800px) {
+    #treeWrapper {
+      width: 90vw;
+    }
+    .sentence-output {
+        width: 85vw;
+    }
+  }

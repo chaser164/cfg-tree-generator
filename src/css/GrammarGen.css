@@ -1,0 +1,83 @@
+.container {
+    width: 339px;
+    margin-bottom: 100px;
+  }
+  
+  .rule-input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grammar-list {
+    text-align: left;
+  }
+  
+  .rule-input-text-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .value-textbox {
+    margin-bottom: 7px;
+  }
+  
+  .conf-or-cancel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px; /* Adjusted padding top */
+  }
+
+  .conf-or-cancel-button {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .add-value-button {
+    font-size: 8pt;
+    height: 30px;
+  }
+  
+  .x-button {
+    background-color: transparent;
+    border-radius: 30%; /* Use 50% to make it circular */
+    padding: 5px; /* Adjust padding as needed */
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none; /* Remove border */
+    cursor: pointer; /* Add pointer cursor for interactivity */
+    display: inline-block; /* Ensure it behaves like a block element */
+    text-align: center; /* Center text horizontally */
+    text-decoration: none; /* Remove default text underline */
+    margin-left: 15px;
+    transition: color 0.15s;
+  }
+  
+  .x-button:hover {
+    background-color: transparent !important;
+    color: gray;
+  }
+
+
+  .x-button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sample-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .sample-button {
+    margin: 5px;
+  }
+
+  .build-instructions {
+    text-align: center;
+    font-style: italic;
+  }
